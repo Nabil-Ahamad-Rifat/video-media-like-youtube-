@@ -2,16 +2,19 @@
   "name": "backnd-porject",
   "version": "1.0.0",
   "description": "backend ",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javaScript"
   ],
   "author": "nabil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.0"
+  }
 }

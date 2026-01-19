@@ -1,0 +1,56 @@
+*.env
+.env
+.env*
+./vscode 
+/node_modules
+./dist
+.DS_Store
+/build
+# coverage
+# logs
+# *.log
+# pids
+# *.pid
+# *.seed
+# *.pid.lock
+# lib-cov
+# *.tsbuildinfo
+# *.eslintcache
+# *.stylelintcache
+# .idea
+# .vscode
+# *.swp
+# *.swo
+# *.bak
+# *.tmp
+# *.old
+# *.orig
+# *.rej
+
+# # Prettier ignore file
+# .prettierignore
+# .prettierrc
+# .prettierrc.js
+# .prettierrc.json
+# .prettierrc.yml
+# .prettierrc.yaml
+# .prettierrc.toml
+# .prettierrc.cjs
+# .prettierrc.config.js
+# .prettierrc.config.cjs
+# .prettierrc.config.json
+# .prettierrc.config.yml
+# .prettierrc.config.yaml
+# .prettierrc.config.toml
+# .prettier.config.js
+# .prettier.config.cjs
+# .prettier.config.json
+# .prettier.config.yml
+# .prettier.config.yaml
+# .prettier.config.toml
+# .prettierignore
+# .prettierrc.config.js
+# .prettierrc.config.cjs
+# .prettierrc.config.json
+# .prettierrc.config.yml
+# .prettierrc.config.yaml
