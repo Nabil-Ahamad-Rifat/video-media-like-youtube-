@@ -23,7 +23,7 @@ import useRouter from "./routes/user.routes.js";
 
 
 // router 
-app.use("/api/v1/ueser",useRouter)
+app.use("/api/v1/user", useRouter)
 
 
 export default app;
