@@ -12,6 +12,6 @@ router.route("/register").post(upload.fields([{name:"avatar",maxCount:1},{name:"
 router.route("/login").post(loginUser)
 // secqure router 
 router.route("/logout").post(verrifyjwt,logoutUser)
-router.route("/refredh-token".post(refreshAccessToken))
+router.route("/refredh-token").post(refreshAccessToken)
 
 export default router;
