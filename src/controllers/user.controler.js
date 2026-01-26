@@ -192,7 +192,7 @@ export const changePassword = asyncHandler(async(req,res)=>{
     return res.status(200)
     .json(new ApiResponce(200,{},"password chnaged successfully"));
 })
-
+// get current user
 export const getcurrentUser = asyncHandler(async(req,res)=>{
     return res.status(200)
     .json(new ApiResponce(200,req.user,"current User factch successfully"));
@@ -214,7 +214,7 @@ export const updateAccountDrtails = asyncHandler(async(req,res)=>{
     return res.status(200)
     .json(new ApiResponce(200,user,"user details updated successfully"));
 })
-
+// update avatar
 export const updateavatar = asyncHandler(async(req,res)=>{
     const avatarlocalpath = req.file?.path;
     if(!avatarlocalpath){
@@ -235,7 +235,7 @@ export const updateavatar = asyncHandler(async(req,res)=>{
     return res.status(200)
     .json(new ApiResponce(200,user,"user avater updated successfully"));
 })
-
+// update cover image
 export const updateCoverImage = asyncHandler(async(req,res)=>{
     const CoverImagelocalpath = req.file?.path;
     if(!CoverImagelocalpath){
