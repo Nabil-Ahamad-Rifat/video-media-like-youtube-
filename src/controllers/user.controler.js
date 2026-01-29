@@ -202,6 +202,7 @@ export const updateAccountDrtails = asyncHandler(async(req,res)=>{
     if(!email ||!fullname){
         throw new ApiError(400,"data not find");
     }
+    // update user details
     const user = await User.findByIdAndUpdate(
         req.user?._id,
         {
